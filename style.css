@@ -1,0 +1,50 @@
+﻿#canvas {
+	padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+
+}
+
+.title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.generation {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align:center;
+}
+
+.buttonGroup {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 16px 40px;
+	border-radius: 10px;
+}
+
+.purple {
+	background-color: #660066;
+	color: white;
+}
+
+.red {
+	background-color: #ff3b3f;
+	color: white;
+}
+
+.green {
+	background-color: #048633;
+	color: white;
+}

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Game of Life</title>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="title" class="title">Game of Life</div>
+	<div id="generation" class="generation">Generation 0</div>
+
+	<canvas id="canvas" class="canvas" width="500" height="500"></canvas>
+
+	<div class="buttonGroup">
+		<input id="stepButton" type="button" class="button green" value="START" onclick="game.start();" />
+		<input id="stepButton" type="button" class="button red" value="STOP" onclick="game.stop();" />
+		<input id="stepButton" type="button" class="button purple" value="STEP" onclick="game.step();" />
+	</div>
+
+	<script type="text/javascript" src="game.js"></script>
+
+</body>
+
+</html>
